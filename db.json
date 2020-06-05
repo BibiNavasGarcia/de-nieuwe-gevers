@@ -1,0 +1,151 @@
+{
+  "users": [],
+  "projecten": [
+    {
+      "title": "Professioneel jaarverslag",
+      "projectInfo": "Help Orange Babies met het ontwerpen van het jaarverslag zodat ze dit op een professionele manier kunnen presenteren en hun impact zichtbaar wordt.",
+      "account": "Orange Babies",
+      "projectOwner": {
+        "name": "Maurizio Camporelli",
+        "role": "Projectmanager Digital Marketing",
+        "address": {
+          "streetName": "Czaar Peterstraat 155",
+          "postalCode": "1018 PH",
+          "locality": "Amsterdam"
+        }
+      },
+      "website": "https://www.orangebabies.nl",
+      "accountInformation": "Om de gebieden waar wij actief zijn, trekken we een zogenaamde oranje cirkel, waarbinnen de 3 gekozen doelgroepen (moeders, kinderen, adolescenten) bediend worden met een holistische benadering. Met deze aanpak dragen we bij aan het terugdringen van de hiv-epidemie.",
+      "searchingFor": "Graphic designer die ervaring heeft met het ontwerpen professionele documenten. Heeft ervaring met programma's zoals Adobe Photoshop en Indesign.",
+      "totalHours": "Vanaf de start: 15 tot 35 uur, binnen 3 - 6 weken. Op locatie en/of vanaf huis..",
+      "causeTags": [
+        {
+          "tagId": "954cbed6-9ba1-4cbe-ae88-e674ec799367",
+          "tagName": "Welzijn"
+        },
+        {
+          "tagId": "b430bc93-e7d3-439c-9cc1-fba7642a047c",
+          "tagName": ""
+        }
+      ],
+      "skillTags": [
+        {
+          "tagId": "7b8c05b0-8207-48ad-a083-3cba2edc4028",
+          "tagName": "Grafisch design"
+        },
+        {
+          "tagId": "d2303b57-42fe-4d40-a522-cc4339c126fd",
+          "tagName": "Illustratie"
+        }
+      ],
+      "pictureUrl": "OrangeBabies",
+      "live": false,
+      "matched": true,
+      "completed": true,
+      "professionalId": "ef337cda-5fd0-4fee-ab12-0a1b4c22ce2a",
+      "id": 1
+    },
+    {
+      "title": "Coronahulp: Campagne huisstijl met materiaal ontwerpen",
+      "projectInfo": "Het idee is om in verschillende wijken in Utrecht een slinger oid te maken om met een hartverwarmende boodschap de mensen een hart onder de riem te steken tijdens deze coronacrisis.",
+      "account": "Vrijwilligerscentrale Utrecht",
+      "projectOwner": {
+        "name": "Julian Hoogendoorn",
+        "role": "Adviseur vrijwillige inzet",
+        "avatar": 3
+      },
+      "address": {
+        "streetName": "Bemuurde Weerd oz 3",
+        "postalCode": "3514 AN",
+        "locality": "Utrecht"
+      },
+      "website": "https://www.vcutrecht.nl",
+      "accountInformation": "We zorgen ervoor dat vrijwilligers aan de slag gaan bij organisaties, dat zij zich d.m.v. workshops en trainingen kunnen ontwikkelen, en dat organisaties goed zijn toegerust om me vrijwilligers te werken. Daarnaast zetten we vrijwilligerswerk continu op de kaart in Utrecht!",
+      "searchingFor": "Een grafisch designer die een huisstijl kan ontwikkelen voor een campagne. Iemand die deze huisstijl vervolgens consistent kan doorvertalen voor print, social media posts en/of website assets.",
+      "totalHours": "Vanaf de start: 15 tot 30 uur.",
+      "start": "We kunnen en willen direct aan de slag met dit project.",
+      "causeTags": [
+        {
+          "tagId": "954cbed6-9ba1-4cbe-ae88-e674ec799367",
+          "tagName": "Welzijn"
+        },
+        {
+          "tagId": "b430bc93-e7d3-439c-9cc1-fba7642a047c",
+          "tagName": "Diversiteit en Inclusiviteit"
+        }
+      ],
+      "skillTags": [
+        {
+          "tagId": "7b8c05b0-8207-48ad-a083-3cba2edc4028",
+          "tagName": "Grafisch design"
+        },
+        {
+          "tagId": "d2303b57-42fe-4d40-a522-cc4339c126fd",
+          "tagName": "Illustratie"
+        },
+        {
+          "tagId": "d627b7d2-caad-4f73-9be5-b245f6d985d2",
+          "tagName": "Merkstrategie"
+        }
+      ],
+      "pictureUrl": "VC",
+      "live": true,
+      "matched": true,
+      "completed": false,
+      "professionalId": "ef337cda-5fd0-4fee-ab12-0a1b4c22ce2a",
+      "id": 2
+    },
+    {
+      "title": "Organisatie video",
+      "projectInfo": "Met jouw bijdrage (filmpje) kunnen wij onze naamsbekendheid vergroten. Daardoor komen er meer donaties binnen en kunnen we direct meer kinderfeestjes faciliteren.",
+      "account": "Stichting Uitgestelde Kinderfeestjes",
+      "projectOwner": {
+        "name": "Stijn Tupan",
+        "avatar": 5
+      },
+      "address": {
+        "address": "Beeklustweg 30",
+        "postalCode": "7335 JD",
+        "locality": "Apeldoorn"
+      },
+      "accountInformation": "Stichting Uitgestelde Kinderfeestjes helpt de vicieuze cirkel van armoede te doorbreken, door een kinderfeestje beschikbaar te maken voor de jarige. Zo hoort een kind erbij!",
+      "searchingFor": "Een cameraman/vrouw die een bedrijfsfilmpje kan maken en editen. Ervaring met het camera apparatuur en programma's als Adobe Premiere. Pre: Iemand die mee kan denken met het (creatieve) script.",
+      "totalHours": "Vanaf de start: 10 tot 25 uur, binnen 2 - 5 weken. Op locatie en/of vanaf huis.",
+      "start": "We kunnen en willen direct aan de slag met dit project.",
+      "causeTags": [
+        {
+          "tagId": "954cbed6-9ba1-4cbe-ae88-e674ec799367",
+          "tagName": "Armoede"
+        },
+        {
+          "tagId": "b430bc93-e7d3-439c-9cc1-fba7642a047c",
+          "tagName": "Kind en gezin"
+        },
+        {
+          "tagId": "b430bc93-e7d3-439c-9cc1-fba7642a047c",
+          "tagName": "Diversiteit en inclusiviteit"
+        }
+      ],
+      "skillTags": [
+        {
+          "tagId": "4e2180f1-a23b-4995-a5b6-203dd58a9211",
+          "tagName": "Video"
+        },
+        {
+          "tagId": "e48656c8-1d60-4e62-adca-559a674j0687",
+          "tagName": "Foto"
+        },
+        {
+          "tagId": "bd8df8d1-7220-4359-ae67-f7ae496001a0",
+          "tagName": "Content"
+        }
+      ],
+      "logo": 6,
+      "pictureUrl": "SUK",
+      "live": true,
+      "matched": false,
+      "completed": false,
+      "id": 3
+    }
+  ]
+}
