@@ -4,15 +4,6 @@ import { IProject } from '../types/project';
 const baseUrl = 'http://localhost:3000'
 
 export async function getAll() {
-  const response = await fetch(`${baseUrl}/projecten`)
-  console.log(response)
+  const response = await fetch(`${baseUrl}/projects`)
   return response.json()
-  }
-
-export async function add(project: IProject) {
-  const response = await fetch(`${baseUrl}/projecten`, {
-    body: JSON.stringify(project),
-    headers: { 'Content-Type': 'application/json' },
-    method: 'POST' });
-    return response.json();
   }

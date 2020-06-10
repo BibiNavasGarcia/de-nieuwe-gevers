@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { TouchableOpacity, ScrollView } from 'react-native';
+import { TouchableOpacity } from 'react-native';
 
 import { IProject } from "../../types/project";
 
@@ -11,6 +11,7 @@ import { Logo } from '../../shared/components/logo/Logo';
 import { HeaderContainer } from '../../shared/components/screen-header/container/HeaderContainer';
 import { Project } from '../../components/project/Project';
 import { ScreenContainer } from '../../shared/components/screen-container/ScreenContainer';
+import { ScrollContainer } from '../../shared/components/scroll-container/ScrollContainer';
 import { Subtitle } from '../../shared/components/screen-header/subtitle/Subtitle';
 import { Title } from '../../shared/components/screen-header/title/Title';
 
@@ -41,11 +42,12 @@ export function SearchScreen () {
              <FilterIcon />
            </Styled.FilterButton>
          </TouchableOpacity>
-         <Styled.ScrollContainer style={{flex: 1}}>
-           <ScrollView>
-             {projects.map((project: IProject) => (<Project project={project} key={project.id} />))}
-           </ScrollView>
-         </Styled.ScrollContainer>
+         <ScrollContainer>
+           {projects.map((project: IProject) => { 
+             if (project.matched === false) { 
+               return (<Project project={project} key={project.id} />)}
+              return null})}
+         </ScrollContainer>
        </ScreenContainer>
      </>
      )

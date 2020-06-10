@@ -14,7 +14,7 @@ export const buttonHeight = {
 export const color = {
   black: '#00000',
   primary: {
-    dark: '#FED633',
+    dark:'#FED633' ,
     light: '#FFFAE6'
   },
   secondary: {
@@ -34,7 +34,8 @@ export const color = {
 };
 
 export const padding = {
-  primary: '20px 14px'
+  primary: '0 14px 20px',
+  secondary: '20px 14px'
 };
 
 export const font = {
@@ -52,7 +53,7 @@ export const textSize = {
 };
 
 export const titleSize = {
-  xSmall: '16px',
+  xSmall: '18px',
   small: '20px',
   medium: '22px',
   large: '24px',

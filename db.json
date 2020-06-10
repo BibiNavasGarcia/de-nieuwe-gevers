@@ -1,6 +1,16 @@
 {
-  "users": [],
-  "projecten": [
+  "users": [
+    {
+      "email": "tim@denieuwegevers.nl",
+      "firstName": "Tim",
+      "lastName": "de Kok",
+      "password": "Welkom123!",
+      "professionalId": "ef337cda-5fd0-4fee-ab12-0a1b4c22ce2a",
+      "id": "1"
+    }
+  ],
+
+  "projects": [
     {
       "title": "Professioneel jaarverslag",
       "projectInfo": "Help Orange Babies met het ontwerpen van het jaarverslag zodat ze dit op een professionele manier kunnen presenteren en hun impact zichtbaar wordt.",
@@ -90,7 +100,7 @@
       ],
       "pictureUrl": "VC",
       "live": true,
-      "matched": true,
+      "matched": false,
       "completed": false,
       "professionalId": "ef337cda-5fd0-4fee-ab12-0a1b4c22ce2a",
       "id": 2
@@ -145,7 +155,176 @@
       "live": true,
       "matched": false,
       "completed": false,
+      "professionalId": null,
       "id": 3
+    },
+    {
+      "title": "Analyse & advies: Beter vindbaar in Google",
+      "projectInfo": "Een optimaal vindbare website maakt dat bezoekers optimaal gebruik kunnen maken van de kennis en expertise die we aanbieden op de site.",
+      "account": "Aidsfonds",
+      "projectOwner": {
+        "name": "Julian Hoogendoorn",
+        "role": "Communicatieadviseur",
+        "avatar": 3
+      },
+      "address": {
+        "streetName": "Bemuurde Weerd oz 3",
+        "postalCode": "3514 AN",
+        "locality": "Utrecht"
+      },
+      "website": "https://aidsfonds.nl/",
+      "accountInformation": "Met de steun van trouwe supporters en donateurs zetten we ons in voor iedereen die met hiv en aids te maken heeft. In Nederland en in de rest van de wereld. We gaan voor een wereld zonder hiv en aids.",
+      "searchingFor": "Een SEO expert die een analyse met aanbevelingen kan doen voor een betere vindbaarheid in Google. Ervaring met: Google Analytics, Search Console en/of andere SEO tooling. Is in staat het advies helder over te brengen in de rapport/presentatie met concrete next steps.",
+      "totalHours": "Vanaf de start: 15 tot 30 uur, binnen 3 - 5 weken.",
+      "causeTags": [
+        {
+          "tagId": "954cbed6-9ba1-4cbe-ae88-e674ec799367",
+          "tagName": "Gezondheid en Ziektbestrijding"
+        },
+        {
+          "tagId": "b430bc93-e7d3-439c-9cc1-fba7642a047c",
+          "tagName": "Ontwikkelingshulp"
+        },
+        {
+          "tagId": "b430bc93-e7d3-439c-9cc1-fba7642a047c",
+          "tagName": "Wetenschap en onderzoek"
+        }
+      ],
+      "skillTags": [
+        {
+          "tagId": "7b8c05b0-8207-48ad-a083-3cba2edc4028",
+          "tagName": "Online marketing"
+        },
+        {
+          "tagId": "d2303b57-42fe-4d40-a522-cc4339c126fd",
+          "tagName": "Illustratie"
+        },
+        {
+          "tagId": "d627b7d2-caad-4f73-9be5-b245f6d985d2",
+          "tagName": "Merkstrategie"
+        }
+      ],
+      "pictureUrl": "AidsFonds",
+      "live": true,
+      "matched": false,
+      "completed": false,
+      "professionalId": null,
+      "id": 4
+    },
+    {
+      "title": "Missie, visie en waarden",
+      "projectInfo": "Met een goede strategie voor mijn project, is de impact vele malen groter. Ik heb goede ervaringen met online marketing voor mijn loopbaanadviespraktijk, maar dit project is echt een uitdaging. Lastiger te concretiseren en online te verkopen. Wel interessant.",
+      "account": "Vivanti",
+      "projectOwner": {
+        "name": "Stijn Tupan",
+        "avatar": 5
+      },
+      "address": {
+        "address": "Beeklustweg 30",
+        "postalCode": "7335 JD",
+        "locality": "Apeldoorn"
+      },
+      "accountInformation": "Overkoepelend doel: Grote aantallen mensen zien in, hoe ze op een vrolijke manier een duurzame wereld kunnen creëren. De wereld waarnaar ze in hun hart verlangen. Zou jij me kunnen helpen dit te vertalen naar concrete doelen?",
+      "searchingFor": "Een merkstrateeg die kan helpen met het (her)formuleren van onze missie, visie en waarden. Benodigd: Sterk in taal en kan krachtig dergelijke zaken formuleren. Heeft ervaring met merkdenken, communicatie en/of strategie.",
+      "totalHours": "Vanaf de start: 10 tot 30 uur, binnen 2 - 5 weken. Op locatie en/of vanaf huis.",
+      "start": "We kunnen en willen direct aan de slag met dit project.",
+      "causeTags": [
+        {
+          "tagId": "954cbed6-9ba1-4cbe-ae88-e674ec799367",
+          "tagName": "Duurzaamheid, natuur en milieu"
+        },
+        {
+          "tagId": "b430bc93-e7d3-439c-9cc1-fba7642a047c",
+          "tagName": "Educatie"
+        },
+        {
+          "tagId": "b430bc93-e7d3-439c-9cc1-fba7642a047c",
+          "tagName": "Welzijn"
+        }
+      ],
+      "skillTags": [
+        {
+          "tagId": "4e2180f1-a23b-4995-a5b6-203dd58a9211",
+          "tagName": "Merkstrategie"
+        },
+        {
+          "tagId": "e48656c8-1d60-4e62-adca-559a674j0687",
+          "tagName": "Communicatie"
+        },
+        {
+          "tagId": "bd8df8d1-7220-4359-ae67-f7ae496001a0",
+          "tagName": "Marketing"
+        }
+      ],
+      "logo": 6,
+      "pictureUrl": "Vivanti",
+      "live": false,
+      "matched": true,
+      "completed": false,
+      "professionalId": "ef337cda-5fd0-4fee-ab12-0a1b4c22ce2a",
+      "id": 5
+    },
+    {
+      "title": "Email marketing tool",
+      "projectInfo": "Help met jouw kennis de Groente & Fruit brigade met het kiezen van en leren over een email marketing tool. Zo kan je de brigade naar een hoger niveau tillen.",
+      "account": "Groente & Fruit brigade",
+      "projectOwner": {
+        "name": "Maurizio Camporelli",
+        "role": "Vrijwilliger Communicatie & PR team",
+        "avatar": 5
+      },
+      "address": {
+        "address": "Beeklustweg 30",
+        "postalCode": "7335 JD",
+        "locality": "Apeldoorn"
+      },
+      "website": "https://groentefruitbrigade.nl/",
+      "accountInformation": "Meer voedselbankklanten krijgen door ons initiatief de broodnodige vitamines binnen en minder fruit en groente wordt de prullenbak ingegooid. Zo helpen we niet alleen mens maar ook natuur!",
+      "searchingFor": "Een marketeer die kan helpen om een juiste email marketing tool te vinden voor onze organisatie en deze te implementeren. Benodigd: kennis van email marketing tools en de mogelijkheden binnen deze tools.",
+      "totalHours": "Vanaf de start: 8 tot 16 uur, binnen 4 weken. Op locatie en/of vanuit huis.",
+      "causeTags": [
+        {
+          "tagId": "954cbed6-9ba1-4cbe-ae88-e674ec799367",
+          "tagName": "Duurzaamheid, natuur en milieu"
+        },
+        {
+          "tagId": "b430bc93-e7d3-439c-9cc1-fba7642a047c",
+          "tagName": "Armoede"
+        }
+      ],
+      "skillTags": [
+        {
+          "tagId": "4e2180f1-a23b-4995-a5b6-203dd58a9211",
+          "tagName": "Merkstrategie"
+        },
+        {
+          "tagId": "e48656c8-1d60-4e62-adca-559a674j0687",
+          "tagName": "Communicatie"
+        },
+        {
+          "tagId": "bd8df8d1-7220-4359-ae67-f7ae496001a0",
+          "tagName": "Marketing"
+        },
+        {
+          "tagId": "7b8c05b0-8207-48ad-a083-3cba2edc4028",
+          "tagName": "Online marketing"
+        },
+        {
+          "tagId": "d2303b57-42fe-4d40-a522-cc4339c126fd",
+          "tagName": "Grafisch design"
+        },
+        {
+          "tagId": "d2303b57-42fe-4d40-a522-cc4339c126fd",
+          "tagName": "Webdesign"
+        }
+      ],
+      "logo": 6,
+      "pictureUrl": "GFB",
+      "live": false,
+      "matched": false,
+      "completed": true,
+      "professionalId": "ef337cda-5fd0-4fee-ab12-0a1b4c22ce2a",
+      "id": 6
     }
   ]
 }

@@ -44,6 +44,8 @@ export const MainContainer = styled.View`
 
 export const TagGroupContainer = styled.View`
   flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: ${spacing}
 `;
 
 export const TagContainer = styled.View`
@@ -51,7 +53,7 @@ export const TagContainer = styled.View`
   background-color: ${color.secondary.light};
   border: ${border.terciary};
   border-radius: 50px;
-  margin-right: ${spacing};
+  margin: 0 ${spacing}px ${spacing}px 0;
   padding: ${spacing / 2}px ${spacing * 2}px;
 `;
 

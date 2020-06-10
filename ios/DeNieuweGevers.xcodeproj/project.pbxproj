@@ -16,11 +16,11 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* DeNieuweGeversTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DeNieuweGeversTests.m */; };
-		3C7D99F3247E9D1C00646879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7D99F2247E9D1C00646879 /* LaunchScreen.storyboard */; };
 		3CE99816247D3AB200DB1BA9 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 3CE99815247D3AB200DB1BA9 /* fonts */; };
 		3CE9981A247D3CC300DB1BA9 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CE99817247D3CC300DB1BA9 /* Montserrat-Bold.ttf */; };
 		3CE9981B247D3CC300DB1BA9 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CE99818247D3CC300DB1BA9 /* Montserrat-Medium.ttf */; };
 		3CE9981C247D3CC300DB1BA9 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CE99819247D3CC300DB1BA9 /* Montserrat-SemiBold.ttf */; };
+		3CF6FD52248F91BF001227F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF6FD51248F91BF001227F5 /* LaunchScreen.storyboard */; };
 		7D1EA30F5076BDD2F5276095 /* libPods-DeNieuweGevers-DeNieuweGeversTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDBCEF189A2846CABDEB5F9 /* libPods-DeNieuweGevers-DeNieuweGeversTests.a */; };
 		A94CC658829D7E7A7299AD0C /* libPods-DeNieuweGevers-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D258E93444DA7E6ADC4387 /* libPods-DeNieuweGevers-tvOS.a */; };
 		CC6471517F4388DA3B8B54A8 /* libPods-DeNieuweGevers-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE78B40A9561A01B90982A4 /* libPods-DeNieuweGevers-tvOSTests.a */; };
@@ -59,11 +59,11 @@
 		2D02E47B1E0B4A5D006451C7 /* DeNieuweGevers-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DeNieuweGevers-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* DeNieuweGevers-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DeNieuweGevers-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DBF73D6CCE037CE3605376 /* libPods-DeNieuweGevers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeNieuweGevers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C7D99F2247E9D1C00646879 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CE99815247D3AB200DB1BA9 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = ../src/assets/fonts; sourceTree = "<group>"; };
 		3CE99817247D3CC300DB1BA9 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		3CE99818247D3CC300DB1BA9 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		3CE99819247D3CC300DB1BA9 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		3CF6FD51248F91BF001227F5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46AACD36965C82D215A534B7 /* Pods-DeNieuweGevers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeNieuweGevers.release.xcconfig"; path = "Target Support Files/Pods-DeNieuweGevers/Pods-DeNieuweGevers.release.xcconfig"; sourceTree = "<group>"; };
 		5E497A62A362D0EBE82762B2 /* Pods-DeNieuweGevers-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeNieuweGevers-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DeNieuweGevers-tvOSTests/Pods-DeNieuweGevers-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B36FE33D5936C81034DF22B /* Pods-DeNieuweGevers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeNieuweGevers.debug.xcconfig"; path = "Target Support Files/Pods-DeNieuweGevers/Pods-DeNieuweGevers.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				3CE99815247D3AB200DB1BA9 /* fonts */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				3C7D99F2247E9D1C00646879 /* LaunchScreen.storyboard */,
+				3CF6FD51248F91BF001227F5 /* LaunchScreen.storyboard */,
 			);
 			name = DeNieuweGevers;
 			sourceTree = "<group>";
@@ -298,7 +298,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1150;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -354,7 +354,7 @@
 				3CE9981A247D3CC300DB1BA9 /* Montserrat-Bold.ttf in Resources */,
 				3CE9981B247D3CC300DB1BA9 /* Montserrat-Medium.ttf in Resources */,
 				3CE9981C247D3CC300DB1BA9 /* Montserrat-SemiBold.ttf in Resources */,
-				3C7D99F3247E9D1C00646879 /* LaunchScreen.storyboard in Resources */,
+				3CF6FD52248F91BF001227F5 /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3CE99816247D3AB200DB1BA9 /* fonts in Resources */,
 			);
@@ -685,6 +685,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B476BC441345FE9D692C42B8 /* Pods-DeNieuweGevers-DeNieuweGeversTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -708,6 +709,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD136FA8786AFFDBC0CA6B66 /* Pods-DeNieuweGevers-DeNieuweGeversTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = DeNieuweGeversTests/Info.plist;

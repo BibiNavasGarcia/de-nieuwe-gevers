@@ -1,61 +1,29 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import {color } from './src/shared/theme/theme';
+import * as projectApi from './src/services/projects';
+import * as userApi from './src/services/users';
 
-import { SearchScreen } from './src/screens/projects/SearchScreen';
-import { UsernameScreen } from './src/screens/login/username/UsernameScreen';
-import { PasswordScreen } from './src/screens/login/password/PasswordScreen';
-
-import SearchIcon from './src/assets/icons/search.svg';
-
-const Stack = createStackNavigator();
-const AuthStack = createStackNavigator();
-const Tab = createBottomTabNavigator();
+import { StoreContext } from './src/global/store-provider/StoreProvider';
+import { Navigation } from './src/global/navigation/Navigation';
 
 export default function App() {
-  function createAuthStack() {
-    return (
-      <Stack.Navigator screenOptions={{ headerShown: false }}>
-        <AuthStack.Screen name="UsernameScreen" component={UsernameScreen} />
-        <AuthStack.Screen name="PasswordScreen" component={PasswordScreen} />
-      </Stack.Navigator>
-    );
+  const state = useContext(StoreContext);
+
+  const [, setProjects] = state.projects.items;
+  const [, setUsers] = state.users.items;
+
+  async function getData() {
+    const [users_, projects_] = await Promise.all([
+      await userApi.getAll(),
+      await projectApi.getAll()
+    ]);
+    setProjects(projects_);
+    setUsers(users_);
   }
 
-  function createBottomTabs() {
-    return (
-      <Tab.Navigator
-        tabBarOptions={{
-          activeTintColor: '#010036',
-          inactiveTintColor: '#7A7A9B'
-        }}
-      >
-        <Tab.Screen
-          name="Search"
-          component={SearchScreen}
-          options={{
-            tabBarLabel: 'Zoeken',
-            tabBarIcon: ({ color, size }) => (
-              <SearchIcon name="search" color={color} size={size} />
-            )
-          }}
-        />
-        <Tab.Screen name="Portfolio" component={SearchScreen} />
-        <Tab.Screen name="Community" component={SearchScreen} />
-        <Tab.Screen name="Profiel" component={SearchScreen} />
-      </Tab.Navigator>
-    );
-  }
+  useEffect(() => {
+    getData();
+  }, []);
 
-  return (
-    <NavigationContainer>
-      <Stack.Navigator screenOptions={{ headerShown: false }}>
-        {/* <Stack.Screen name="Authorization" component={createAuthStack} /> */}
-        <Stack.Screen name="Home" component={createBottomTabs} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
+  return <Navigation />;
 }

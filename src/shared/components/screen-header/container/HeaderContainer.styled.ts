@@ -12,6 +12,6 @@ export const Container = styled.View`
   border: ${border.terciary};
   box-shadow: ${shadow.primary};
   height: 97px;
-  padding: ${padding.primary};
+  padding: ${padding.secondary};
   width: 100%;
 `;

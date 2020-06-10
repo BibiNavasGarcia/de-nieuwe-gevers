@@ -7,7 +7,6 @@ import { NavigationScreenProp } from 'react-navigation';
 import * as Styled from './UsernameScreen.styled';
 import { Input } from '../../../shared/components/input/Input';
 import { Button } from '../../../shared/components/button/Button';
-import { login } from '../../../services/authentication';
 
 interface UsernameScreenProps {
   navigation: NavigationScreenProp<any>;

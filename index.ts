@@ -3,6 +3,6 @@
  */
 
 import { AppRegistry } from 'react-native';
-import App from './App';
+import Root from './Root';
 
-AppRegistry.registerComponent('DeNieuweGevers', () => App);
+AppRegistry.registerComponent('DeNieuweGevers', () => Root);

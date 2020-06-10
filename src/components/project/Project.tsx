@@ -8,26 +8,37 @@ import { ITag } from '../../types/tag';
 
 import * as Styled from './Project.styled';
 
-const OrangeBabies = require('../../assets/images/faces.jpg');
-const VC = require('../../assets/images/hands.jpg');
-const SUK = require('../../assets/images/bellenblaas.jpg');
+const orangeBabies = require('../../assets/images/faces.jpg');
+const vc = require('../../assets/images/hands.jpg');
+const suk = require('../../assets/images/bellenblaas.jpg');
+const aidsFonds = require('../../assets/images/aids-fonds.jpg');
+const vivanti = require('../../assets/images/vivanti.jpg');
+const gfb = require('../../assets/images/gfb.jpg');
 
 interface ProjectProps {
   project: IProject;
 }
 
 export function Project({ project }: ProjectProps) {
-  console.log(project.pictureUrl);
 
  function getImage () {
-   if (project.pictureUrl === "OrangeBabies") {
-     return OrangeBabies;
-   }
-   if (project.pictureUrl === "VC") {
-    return VC;
-   }
-   if (project.pictureUrl === "SUK") {
-    return SUK;
+  if (project.pictureUrl === "OrangeBabies") {
+    return orangeBabies;
+  }
+  if (project.pictureUrl === "VC") {
+    return vc;
+  }
+  if (project.pictureUrl === "SUK") {
+    return suk;
+  }
+  if (project.pictureUrl === "AidsFonds") {
+    return aidsFonds;
+  }
+  if (project.pictureUrl === "Vivanti") {
+    return vivanti;
+  }
+  if (project.pictureUrl === "GFB") {
+    return gfb;
   }
   return null;
 }
@@ -55,7 +66,7 @@ export function Project({ project }: ProjectProps) {
           <Styled.TagGroupContainer>
             {project.skillTags.map((tag: ITag) => (
               <Styled.TagContainer>
-                <Styled.TagText>{tag.tagName}</Styled.TagText>
+                <Styled.TagText key={tag.tagId}>{tag.tagName}</Styled.TagText>
               </Styled.TagContainer>
             ))}
           </Styled.TagGroupContainer>

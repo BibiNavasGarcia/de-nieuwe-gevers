@@ -17,7 +17,11 @@ export function PasswordScreen({ navigation }: PasswordScreenProps) {
   const [password, setPassword] = useState<string>();
 
   function navigate() {
-    navigation.navigate('SearchScreen');
+    navigation.navigate('Home', { screen: 'SearchScreen' });
+  }
+  
+  function onSubmit() {
+    navigate()
   }
 
   function navigateBack() {
@@ -34,7 +38,7 @@ export function PasswordScreen({ navigation }: PasswordScreenProps) {
         secureTextEntry
         value={password}
       />
-      <Button type="primary" onPress={navigate}>Volgende</Button>
+      <Button type="primary" onPress={onSubmit}>Volgende</Button>
       <Button type="basic" onPress={navigateBack}>
         {'< Terug'}
       </Button>
